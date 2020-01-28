@@ -68,7 +68,7 @@ let hidePara;
 
         // Part 2-A
         largeButtonLI.addEventListener("click", function(){
-            largeButtonLI.textContent = (largeButtonLI.textContent == 'Hello, world!') ? 'Good Bye!' : 'Hello, world!';
+            largeButtonLI.textContent = (largeButtonLI.textContent == 'Hide Details') ? 'Learn More' : 'Hide Details';
         });
 
     }
