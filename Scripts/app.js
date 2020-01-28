@@ -65,6 +65,12 @@ let hidePara;
         // Part 1-D
         hidePara = document.getElementById('firstParagraph');
         hidePara.style.cssText = "display: none";
+
+        // Part 2-A
+        largeButtonLI.addEventListener("click", function(){
+            largeButtonLI.textContent = (largeButtonLI.textContent == 'Hello, world!') ? 'Good Bye!' : 'Hello, world!';
+        });
+
     }
 
 
