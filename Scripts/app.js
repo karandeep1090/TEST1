@@ -21,6 +21,9 @@ let detailLI;
 // Part 1-C Variables
 let replacePara;
 
+// Part 1-D Variables
+let hidePara;
+
 (function(app){
 
     // Declare Function Variables here...
@@ -59,7 +62,9 @@ let replacePara;
      */
     function Main()
     {
-
+        // Part 1-D
+        hidePara = document.getElementById('firstParagraph');
+        hidePara.style.cssText = "display: none";
     }
 
 
